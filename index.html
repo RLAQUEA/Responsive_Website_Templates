@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sidebar">
+        <div class="toggle-btn" onclick="toggleSidebar()">
+            <span></span> 
+            <span></span>  
+            <span></span>  
+            <span></span>    
+        </div>
+         <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>Gallery</li>
+        </ul>
+        <button id="btnHome">Home</button>
+    </div>
+</body>
+<script>
+    console.log("Hello");
+    let btnHome= document.getElementById("btnHome");
+    btnHome.addEventListener("click", function(){
+        console.log("Hello Rachel");
+    });
+    function toggleSidebar(){      
+    }
+</script>
+</html>
+
+
+<!-- document.getElementById('sidebar').classList.toggle('active');" 
+document.getElementById("sidebar").classList.toggle('active');-->
